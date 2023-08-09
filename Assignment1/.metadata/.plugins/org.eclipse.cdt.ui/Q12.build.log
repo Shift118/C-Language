@@ -1,0 +1,7 @@
+02:42:29 **** Incremental Build of configuration Debug for project Q12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main12.o" "..\\src\\main12.c" 
+gcc -o Q12.exe "src\\main12.o" 
+
+02:42:29 Build Finished. 0 errors, 0 warnings. (took 530ms)
+

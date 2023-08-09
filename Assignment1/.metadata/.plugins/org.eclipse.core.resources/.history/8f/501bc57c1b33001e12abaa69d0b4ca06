@@ -1,0 +1,5 @@
+#include <stdio.h>
+
+int main(void){
+	println("Name: Mostafa , Grade: A+ , #Best_Programmer");
+}

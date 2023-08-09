@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(void){
+	float x = (5/3)%2;
+	printf("X = %f",x);
+}

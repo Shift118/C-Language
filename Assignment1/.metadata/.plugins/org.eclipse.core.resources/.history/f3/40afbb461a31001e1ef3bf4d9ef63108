@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(void){
+	int c = 10;
+	printf("%d",c);
+//	return 0;
+}

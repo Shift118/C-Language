@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void){
+	setbuf(stdout,NULL);
+
+	int x ;
+	printf("Enter a your Grade: ");
+	scanf("%d",&x);
+
+	switch (x){
+	case x >= 85 : printf("Excellent");
+			      break;
+	case x >= 75 : printf("Excellent");
+				      break;
+	case x >= 65 : printf("Excellent");
+				      break;
+	case x >= 50 : printf("Excellent");
+				      break;
+	default : printf("Fail");
+	          break;
+	}
+}

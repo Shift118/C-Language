@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+// Global variable declared outside any function
+int globalVariable;
+
+void function1() {
+    // Access and modify the global variable inside function1
+    globalVariable = 42;
+}
+
+void function2() {
+    // Access the global variable inside function2
+    printf("The value of the global variable is: %d\n", globalVariable);
+}
+
+int main() {
+    function1();
+    function2();
+    return 0;
+}

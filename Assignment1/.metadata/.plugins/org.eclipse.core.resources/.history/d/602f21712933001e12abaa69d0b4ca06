@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void){
+	setbuf(stdout,NULL);
+
+	int x ;
+	printf("Enter a number: ");
+	scanf("%d",&x);
+
+	if (x == 2){printf("Prime");}
+	else if (x == 1){printf("Not Prime");}
+	else if (x%2 == 1){printf("Prime");}
+	else {printf("Not Prime");}
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+void power(int num , int power){
+	printf("Ans = %lf",pow(num,power));
+}
+
+int main(void){
+	setbuf(stdout,NULL);
+	int x,y;
+	printf("Enter the value of Number: ");
+	scanf("%f",&x);
+	printf("Enter the value of Power: ");
+	scanf("%f",&y);
+	power(x,y);
+}

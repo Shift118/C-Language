@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void){
+	unsigned int x = 0;
+	int factorial = 1;
+	if (x == 0){factorial = 1;}
+	else{
+		for (int i = x ; i > 0 ; i--){
+			factorial *= i;
+		}
+	}
+	printf("Factorial %u  is %d",x,factorial);
+}

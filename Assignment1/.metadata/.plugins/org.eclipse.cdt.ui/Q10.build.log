@@ -1,0 +1,7 @@
+12:19:21 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main10.o" "..\\src\\main10.c" 
+gcc -o Q10.exe "src\\main10.o" 
+
+12:19:22 Build Finished. 0 errors, 0 warnings. (took 689ms)
+

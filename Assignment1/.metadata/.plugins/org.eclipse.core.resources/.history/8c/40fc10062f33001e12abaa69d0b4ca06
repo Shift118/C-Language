@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int countDigits(double num) {
+    char numStr[20];
+    sprintf(numStr, "%lf", num);
+    return strlen(numStr);
+}
+
+int main() {
+	setbuf(stdout,NULL);
+    double num;
+
+    printf("Enter a decimal number: ");
+    scanf("%lf", &num);
+
+    int digitCount = countDigits(num);
+
+    printf("Number of digits in %lf is: %d\n", num, digitCount);
+
+    return 0;
+}

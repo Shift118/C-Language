@@ -1,0 +1,16 @@
+20:45:05 **** Incremental Build of configuration Debug for project Functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Functions.exe "src\\main.o" 
+21:59:28 **** Incremental Build of configuration Debug for project Functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Functions.exe "src\\main.o" 
+22:05:08 **** Incremental Build of configuration Debug for project Functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Functions.exe "src\\main.o" 
+22:05:31 **** Incremental Build of configuration Debug for project Functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Functions.exe "src\\main.o" 

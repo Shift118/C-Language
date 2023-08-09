@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+float x,y;
+
+int data(void){
+	printf("Enter the value of x: ");
+	scanf("%f",&x);
+	printf("Enter the value of y: ");
+	scanf("%f",&y);
+}
+
+int main(void){
+	setbuf(stdout,NULL);
+
+	char sign;
+	printf("Enter the operation needed (+,-,*,/) : ");
+	scanf("%c",&sign);
+
+	switch (sign){
+	case '+' : printf("Enter the variable for this order 'x+y' !\n");
+	           data();
+	           printf("x+y = %f",x+y);
+	           break;
+	case '-' : printf("Enter the variable for this order 'x-y' !\n");
+			   data();
+			   printf("x-y = %f",x-y);
+			   break;
+	case '*' : printf("Enter the variable for this order 'x*y' !\n");
+	           data();
+	           printf("x*y = %f",x*y);
+	           break;
+	case '/' : printf("Enter the variable for this order 'x/y' !\n");
+			   data();
+			   printf("x/y = %f",x/y);
+			   break;
+	default : return "This is not a feature!";
+			  break;
+	}
+}
+
+

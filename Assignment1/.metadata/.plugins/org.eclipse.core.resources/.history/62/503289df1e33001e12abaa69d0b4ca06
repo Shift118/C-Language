@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(void){
+	float x = 19%2;
+	printf("X = $f",x);
+}

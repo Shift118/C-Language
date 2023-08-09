@@ -1,0 +1,24 @@
+04:00:35 **** Rebuild of configuration Debug for project Q21 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main21.o" "..\\src\\main21.c" 
+gcc -o Q21.exe "src\\main21.o" 
+04:00:44 **** Incremental Build of configuration Debug for project Q21 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main21.o" "..\\src\\main21.c" 
+gcc -o Q21.exe "src\\main21.o" 
+04:01:22 **** Incremental Build of configuration Debug for project Q21 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main21.o" "..\\src\\main21.c" 
+gcc -o Q21.exe "src\\main21.o" 
+12:18:30 **** Incremental Build of configuration Debug for project Q20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main20.o" "..\\src\\main20.c" 
+gcc -o Q20.exe "src\\main20.o" 
+12:19:21 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main10.o" "..\\src\\main10.c" 
+gcc -o Q10.exe "src\\main10.o" 
+17:41:28 **** Rebuild of configuration Debug for project Q11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main11.o" "..\\src\\main11.c" 
+gcc -o Q11.exe "src\\main11.o" 

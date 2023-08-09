@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void printCross(int hight) {
+    for (int i = 1; i <= hight; i++) {
+        for (int h = 1; h <= hight; h++) {
+            if (i == h || i == hight - h + 1) {
+                printf("*");
+            } else {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+int main() {
+    int hight = 7;
+    printCross(hight);
+
+}

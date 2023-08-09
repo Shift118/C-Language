@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void){
+	setbuf(stdout,NULL);
+	int x,y;
+	printf("Enter 2 Number: ");
+	scanf("%d%d",x,y);
+	return ((x+y)*3)-10;
+}
