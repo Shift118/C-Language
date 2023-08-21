@@ -18,7 +18,7 @@ int onesCount(unsigned int num) {
 }
 
 int main(void) {
-	unsigned int num = 0b11111101;
+	unsigned int num = 0b1110001000111101;
 	int ones = onesCount(num);
 	printf("Number of ones in %u is %d", num, ones);
 }
