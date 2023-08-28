@@ -10,8 +10,8 @@ int main(void) {
     int *pointerofX = &x;
     printf("%d\n",*pointerofX);
     printf("%d\n",x);
-    printf("%d\n",pointerofX);
-    printf("%d\n",&x);
+    printf("%p\n",pointerofX);  // %p is for address
+    printf("%p\n",&x);          // %p is for address
 /////////////////////////////////////
     int arr[] = {2,3,4,5,6,7,8};
     
